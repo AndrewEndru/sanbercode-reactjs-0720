@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App h2 {
+  color: salmon;
+}
+
+.App, input{
+  text-align: left;
+} */
+
+#container{
+  width: 40%;
+  height: 300px;
+  border-style: groove;
+  border-radius: 10px;
+  margin: auto;
+  top: 20px;
+}
+
+.container,h2 {
+  text-align: center;
+}
+
+th,td{
+  text-align: left;
+  padding-right: 40px;
+}
+button {  
+  /* border: 1px solid black; */
+  border-radius: 12px;
+  border-style: inset;
+}
+
+table{
+  margin: auto;
 }
